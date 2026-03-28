@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c \"from PIL import Image; print\\('Pillow available'\\)\" 2>&1)"
+      "Bash(python -c \"from PIL import Image; print\\('Pillow available'\\)\" 2>&1)",
+      "Bash(cd \"C:/Users/Danny/AutoProspect/prospects/parker-kitchens/demo/images\" && rm -f hero.jpg cta-background.jpg service-kitchen.jpg service-bathroom.jpg service-bedroom.jpg service-knockthrough.jpg service-homeoffice.jpg success-lifestyle.jpg Parker_Kitchens_Logo_2.png miele-logo.png neff-logo.png bosch-logo.png quooker-logo.png Karndean-Logo-Colour-Logo-trimmed.png Karndean-Logo-Colour-Logo.jpg logo.svg)",
+      "Bash(ls -la \"C:/Users/Danny/AutoProspect/prospects/parker-kitchens/demo/images/Parker\"*)"
     ]
   }
 }
